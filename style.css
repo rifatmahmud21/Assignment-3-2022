@@ -7,4 +7,83 @@ footer h1 {
 }
 
 
-@media only screen and (max-width: 688px) {}
+@media only screen and (max-width: 688px) {
+
+
+
+
+
+
+    .course-card {
+        flex-direction: column;
+    }
+
+    .course-card img {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .course-card-text {
+        text-align: center;
+    }
+
+    .deals {
+        flex-direction: column;
+    }
+
+    .deals img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #deals-texts {
+        /* margin-left: 1px; */
+        padding-left: 0%;
+    }
+
+    .deals-btn {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .register-btn {
+        flex-direction: column;
+    }
+
+    .Successfull-student {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .brands {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brands-logo {
+        margin-top: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
