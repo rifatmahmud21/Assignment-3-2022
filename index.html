@@ -255,15 +255,22 @@
                         by learning how to implement modern web pages with HTML and CSS. We will then advance to
                         learning how to code our pages
                         such that its components rearrange and resize themselves automatically based on the size of the
-                        user’s screen. You’ll be
-                        able to code up a web page that will be just as useful on a mobile phone as on a desktop
-                        computer. No “pinch and zoom” <br>
-                        required! Last but certainly not least, we will get a thorough introduction to the most
-                        ubiquitous, popular, and
-                        incredibly powerful language of the web: Javascript. Using Javascript, you will be able to build
-                        a fully functional web
-                        application that utilizes Ajax to expose server-side functionality and data to the end user.
+                        <span id="dots">...</span><span id="more">
+                            user’s screen. You’ll be
+                            able to code up a web page that will be just as useful on a mobile phone as on a desktop
+                            computer. No “pinch and zoom” <br>
+                            required! Last but certainly not least, we will get a thorough introduction to the most
+                            ubiquitous, popular, and
+                            incredibly powerful language of the web: Javascript. Using Javascript, you will be able to
+                            build
+                            a fully functional web
+                            application that utilizes Ajax to expose server-side functionality and data to the end user.
+                        </span><button class="border-0 bg-danger rounded text-light mb-3" onclick="myFunction()"
+                            id="myBtn">Read
+                            more</button>
                     </p>
+
+
                     <div class="d-flex">
                         <div class="me-5">
                             <h2 class="fw-bold display-5">3.2K+</h2>
@@ -619,6 +626,23 @@
 
     <!-- bootstrap js CDN code link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
 </body>
 
 </html>

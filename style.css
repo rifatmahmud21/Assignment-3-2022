@@ -6,9 +6,13 @@ footer h1 {
     font-family: 'Mr Dafoe', cursive;
 }
 
+/* deals */
+#more {
+    display: none;
+}
 
+/* For mobile phones: */
 @media only screen and (max-width: 688px) {
-
 
     /* carousel */
     .carousel-indicators {
@@ -63,11 +67,6 @@ footer h1 {
         margin-bottom: 30px;
     }
 
-    #deals-texts {
-        /* margin-left: 1px; */
-        padding-left: 0%;
-    }
-
     .deals-btn {
         justify-content: center;
         margin-bottom: 20px;
@@ -101,22 +100,7 @@ footer h1 {
     .brands-logo {
         margin-bottom: 10px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+/* For tablets: */
+@media only screen and (min-width:689px) and (max-width:992px) {}
