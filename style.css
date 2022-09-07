@@ -10,9 +10,33 @@ footer h1 {
 @media only screen and (max-width: 688px) {
 
 
+    /* carousel */
+    .carousel-indicators {
+        visibility: hidden;
+    }
+
+    .carousel-caption {
+        top: 10px;
+        /* width: 100%; */
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+    }
+
+    #carousel-btn {
+        margin: 0%;
+    }
 
 
-
+    /* courses */
+    .course-title h1 {
+        font-size: 25px;
+    }
 
     .course-card {
         flex-direction: column;
@@ -28,6 +52,8 @@ footer h1 {
         text-align: center;
     }
 
+
+    /* best deals */
     .deals {
         flex-direction: column;
     }
@@ -47,26 +73,33 @@ footer h1 {
         margin-bottom: 20px;
     }
 
+
+    /* modal area */
     .register-btn {
         flex-direction: column;
     }
 
+
+    /* success */
     .Successfull-student {
         flex-direction: column;
         align-items: center;
     }
 
+    /* cards */
     .card {
         margin-top: 20px;
     }
 
+
+    /* company logo */
     .brands {
         flex-direction: column;
         align-items: center;
     }
 
     .brands-logo {
-        margin-top: 5px;
+        margin-bottom: 10px;
     }
 
 
