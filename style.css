@@ -5,3 +5,6 @@ body {
 footer h1 {
     font-family: 'Mr Dafoe', cursive;
 }
+
+
+@media only screen and (max-width: 688px) {}

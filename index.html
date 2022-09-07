@@ -33,44 +33,43 @@
 
 <body>
     <!-- navbar -->
-    <header>
-        <section>
-            <nav class="navbar navbar-expand-lg bg-light ">
-                <div class="container">
-                    <a class="navbar-brand" href="#"><img src="images/icon.png" alt="" width="60px"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
-                            <li class="nav-item ms-5">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item ms-5">
-                                <a class="nav-link active" href="#">Courses</a>
-                            </li>
-                            <li class="nav-item ms-5">
-                                <a class="nav-link active" href="#">Deals</a>
-                            </li>
-                            <li class="nav-item ms-5">
-                                <a class="nav-link active" href="#">Success</a>
-                            </li>
-                            <li class="nav-item ms-5">
-                                <a class="nav-link active" href="#">About</a>
-                            </li>
-                            <li class="nav-item ms-5">
-                                <a class="nav-link active" href="#">Register</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-dark" type="submit">Search</button>
-                        </form>
-                    </div>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-light ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/icon.png" alt="" width="60px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item ms-5">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link active" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link active" href="#deals">Deals</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link active" href="#success">Success</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link active" href="#about">About</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link active" href="#register">Register</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                    </form>
                 </div>
-            </nav>
+            </div>
+        </nav>
         </section>
     </header>
 
@@ -143,94 +142,98 @@
 
         <!-- Courses -->
 
-        <section class="container mt-5 mb-5">
+        <section class="container mt-5 mb-5" id="courses">
 
             <!-- course title -->
             <div class="text-center">
                 <h1 class="fw-bold display-4">Discover Our Popular
                     Courses</h1>
-                <p class="fs-6">It is a long established fact that a reader will be distracted by the readable
-                    content of a page when looking at its layout</p>
+                <p class="fs-6 text-black-50">Skills you will gain from our website</p>
             </div>
 
             <!-- course cards -->
             <div class="container mt-5">
                 <div class="row g-3">
                     <div class="col-12 col-md-6">
-                        <div class="p-3 border bg-light d-flex rounded shadow">
+                        <div class="p-3 border bg-light d-flex align-items-center rounded shadow">
                             <div class="me-3">
                                 <img src="images/course/course-1.png" alt="">
                             </div>
                             <div>
                                 <h3 class="fw-bold">Fundamental Of UI/UX Design</h3>
-                                <p>Some quick example text to build on the card title
-                                    and make up the bulk of the card.</p>
-                                <h3 class="fw-bold text-danger">Price : 20$</h3>
+                                <p class="fs-6 text-black-50">Master Creative Skills For Designing Apps, Artboards And
+                                    Websites With Figma.</p>
+                                <h3 class="fw-bold text-danger">Price : 90$</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
-                        <div class="p-3 border bg-light d-flex rounded shadow">
+                        <div class="p-3 border bg-light d-flex align-items-center rounded shadow">
                             <div class="me-3">
                                 <img src="images/course/course-2.png" alt="">
                             </div>
                             <div>
-                                <h3 class="fw-bold">Fundamental Of UI/UX Design</h3>
-                                <p>Some quick example text to build on the card title
-                                    and make up the bulk of the card.</p>
-                                <h3 class="fw-bold text-danger">Price : 20$</h3>
+                                <h3 class="fw-bold">Javascript Basic to advanced</h3>
+                                <p class="fs-6 text-black-50">Take your skills to a new
+                                    level and join millions of users that have learned Javascript</p>
+                                <h3 class="fw-bold text-danger">Price : 85$</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-6col-12 col-md-6">
-                        <div class="p-3 border bg-light d-flex rounded shadow">
+                        <div class="p-3 border bg-light d-flex align-items-center rounded shadow">
                             <div class="me-3">
                                 <img src="images/course/course-3.png" alt="">
                             </div>
                             <div>
-                                <h3 class="fw-bold">Fundamental Of UI/UX Design</h3>
-                                <p>Some quick example text to build on the card title
-                                    and make up the bulk of the card.</p>
-                                <h3 class="fw-bold text-danger">Price : 20$</h3>
+                                <h3 class="fw-bold">Fullstack Web Development</h3>
+                                <p class="fs-6 text-black-50">Learn key takeaway skills of full stack and earn a
+                                    certificate of
+                                    completion.</p>
+                                <h3 class="fw-bold text-danger">Price : 70$</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
-                        <div class="p-3 border bg-light d-flex rounded shadow">
+                        <div class="p-3 border bg-light d-flex align-items-center rounded shadow">
                             <div class="me-3">
                                 <img src="images/course/course-4.png" alt="">
                             </div>
                             <div>
-                                <h3 class="fw-bold">Fundamental Of UI/UX Design</h3>
-                                <p>Some quick example text to build on the card title
-                                    and make up the bulk of the card.</p>
-                                <h3 class="fw-bold text-danger">Price : 20$</h3>
+                                <h3 class="fw-bold">Digital Marketing</h3>
+                                <p class="fs-6 text-black-50">Discover how to research and build the correct marketing
+                                    strategies for key
+                                    stakeholders.</p>
+                                <h3 class="fw-bold text-danger">Price : 99$</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
-                        <div class="p-3 border bg-light d-flex rounded shadow">
+                        <div class="p-3 border bg-light d-flex align-items-center rounded shadow">
                             <div class="me-3">
                                 <img src="images/course/course-5.png" alt="">
                             </div>
                             <div>
-                                <h3 class="fw-bold">Fundamental Of UI/UX Design</h3>
-                                <p>Some quick example text to build on the card title
-                                    and make up the bulk of the card.</p>
-                                <h3 class="fw-bold text-danger">Price : 20$</h3>
+                                <h3 class="fw-bold">Photography Basic Rules</h3>
+                                <p class="fs-6 text-black-50">Learn the exposure triangle (aperture, shutter speed, ISO)
+                                    and basic composition
+                                    rules in this easy photography course</p>
+                                <h3 class="fw-bold text-danger">Price : 80$</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
-                        <div class="p-3 border bg-light d-flex rounded shadow">
+                        <div class="p-3 border bg-light d-flex align-items-center rounded shadow">
                             <div class="me-3">
                                 <img src="images/course/course-6.png" alt="">
                             </div>
                             <div>
-                                <h3 class="fw-bold">Fundamental Of UI/UX Design</h3>
-                                <p>Some quick example text to build on the card title
-                                    and make up the bulk of the card.</p>
-                                <h3 class="fw-bold text-danger">Price : 20$</h3>
+                                <h3 class="fw-bold">Motion Graphics</h3>
+                                <p class="fs-6 text-black-50">A practical structured course on combining frame-by-frame
+                                    animation and After
+                                    Effects. You will learn how to create
+                                    frame-by-frame animation</p>
+                                <h3 class="fw-bold text-danger">Price : 90$</h3>
                             </div>
                         </div>
                     </div>
@@ -244,33 +247,40 @@
 
 
         <!-- Review section  -->
-        <section class="container mt-5 mb-5 p-3 rounded shadow">
+        <section class="container mt-5 mb-5 p-3 rounded shadow" id="deals">
             <div class="d-flex align-items-center">
                 <div>
                     <img src="images/student/interm.jpg" alt="">
                 </div>
                 <div class="ms-5">
-                    <h2 class="fw-bold display-4">Explore The elearning
+                    <h2 class="fw-bold display-5">Explore The elearning <br>
                         Institute</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the
-                        majority have suffered alteration in some form, by injected humour, or
-                        randomised words which don't look even slightly believable. If you are going
-                        to use a passage of Lorem Ipsum, you need to be sure.
-                        <br>
-                        Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                        generators on the Internet tend to repeat predefined
+                    <p class="text-black-50">In this course, we will learn the basic tools that every web page coder
+                        needs to know. We will
+                        start from the ground up
+                        by learning how to implement modern web pages with HTML and CSS. We will then advance to
+                        learning how to code our pages
+                        such that its components rearrange and resize themselves automatically based on the size of the
+                        user’s screen. You’ll be
+                        able to code up a web page that will be just as useful on a mobile phone as on a desktop
+                        computer. No “pinch and zoom” <br>
+                        required! Last but certainly not least, we will get a thorough introduction to the most
+                        ubiquitous, popular, and
+                        incredibly powerful language of the web: Javascript. Using Javascript, you will be able to build
+                        a fully functional web
+                        application that utilizes Ajax to expose server-side functionality and data to the end user.
                     </p>
                     <div class="d-flex">
                         <div class="me-5">
-                            <h2 class="fw-bold display-4">3.2K+</h2>
+                            <h2 class="fw-bold display-5">3.2K+</h2>
                             <p class="text-black-50">Online Course</p>
                         </div>
                         <div class="me-5">
-                            <h2 class="fw-bold display-4">600+</h2>
+                            <h2 class="fw-bold display-5">600+</h2>
                             <p class="text-black-50">Expert member</p>
                         </div>
                         <div class="me-5">
-                            <h2 class="fw-bold display-4">1k+</h2>
+                            <h2 class="fw-bold display-5">1k+</h2>
                             <p class="text-black-50">Rating & Review</p>
                         </div>
                     </div>
@@ -280,7 +290,7 @@
         </section>
 
         <!-- Modal Section -->
-        <section class="container mt-5 mb-5">
+        <section class="container mt-5 mb-5" id="register">
             <div class="d-flex bg-danger p-5 rounded align-items-center justify-content-between ">
                 <div>
                     <h3 class="text-light fs-1 fw-bold mt-5 mb-3">Ready to join?</h3>
@@ -340,11 +350,12 @@
         </section>
 
         <!-- our students -->
-        <section class="container mt-5 mb-5">
+        <section class="container mt-5 mb-5" id="success">
             <div>
                 <h2 class="fs-1 fw-bold"> Meet Our Successfull Students</h2>
-                <p class="mb-5 text-black-50">It is a long established fact that a reader will be distracted by the <br>
-                    readable content of a page when looking at its layouts</p>
+                <p class="mb-5 text-black-50">The mission is to educate its students and cultivate their
+                    capacity for life-long
+                    learning.</p>
             </div>
             <div class="d-flex justify-content-between">
                 <div class="card border-0 shadow" style="width: 18rem;">
@@ -382,12 +393,12 @@
         </section>
 
         <!-- feedback -->
-        <section class="container mt-5 mb-5">
+        <section class="container mt-5 mb-5" id="feedback">
             <div>
                 <h2 class="fs-1 fw-bold text-center">Some Students Feedback</h2>
-                <p class="mb-5 text-black-50 text-center">It is a long established fact that a reader will be distracted
-                    by the readable <br>
-                    content of a page when looking at its layout.</p>
+                <p class="mb-5 text-black-50 text-center">Content Rating <i
+                        class="fa-solid fa-thumbs-up text-warning"></i> 96%
+                    (138,530 ratings)</p>
             </div>
 
             <div class="container px-4">
@@ -403,11 +414,12 @@
                             </div>
                         </div>
                         <div>
-                            <p class="text-start text-black-50">There are many variations of passages of Lorem Ipsum
-                                available, but
-                                the majority have suffered alteration in some form, by injected
-                                humour or randomised words which don't look even slightly
-                                believable. If you are going to use a passage of Lorem</p>
+                            <p class="text-start text-black-50">The course has been created with a lot of thought and
+                                planning. Each topic related to the one before. Rob not only
+                                teaches he shows on this course how to google the information needed, which I've been
+                                doing and I've learnt a lot from
+                                this method of teaching.
+                                Thanks for an excellent course.</p>
                         </div>
                         <div class="d-flex align-items-center ">
                             <div class="me-2">
@@ -434,12 +446,11 @@
                                 </div>
                             </div>
                             <div>
-                                <p class="text-start text-black-50">There are many variations of passages of Lorem Ipsum
-                                    available,
-                                    but
-                                    the majority have suffered alteration in some form, by injected
-                                    humour or randomised words which don't look even slightly
-                                    believable. If you are going to use a passage of Lorem</p>
+                                <p class="text-start text-black-50">Thank you Rob sir and Mark sir for clearing all
+                                    doubts that came along while learning.Thanks for bringing in such a
+                                    great course which covers almost every language giving an idea how to put things
+                                    altogether to build a website.Every
+                                    section is brilliant to learn and is full clear to understand.</p>
                             </div>
                             <div class="d-flex align-items-center ">
                                 <div class="me-2">
@@ -462,7 +473,7 @@
         </section>
 
         <!-- Frequently Asked Questions -->
-        <section class="container mt-5 mb-5">
+        <section class="container mt-5 mb-5" id="about">
             <div>
                 <h2 class="fs-1 fw-bold text-center">Frequently Asked Questions</h2>
                 <p class="mb-5 text-black-50 text-center">It is a long established fact that a reader will be distracted
