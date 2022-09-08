@@ -103,4 +103,81 @@ footer h1 {
 }
 
 /* For tablets: */
-@media only screen and (min-width:689px) and (max-width:992px) {}
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    /* carousel */
+    .carousel-indicators {
+        visibility: hidden;
+    }
+
+    /* courses */
+    .course-title h1 {
+        font-size: 25px;
+    }
+
+    .course-card {
+        flex-direction: row;
+    }
+
+    .course-card img {
+        width: 200px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    .course-card-text {
+        text-align: left;
+    }
+
+    /* best deals */
+    .deals {
+        flex-direction: column;
+    }
+
+    .deals img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .deals-btn {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+
+    /* modal area */
+    .register-btn {
+        flex-direction: column;
+    }
+
+
+    /* success */
+
+    .Successfull-student {
+        flex-direction: row;
+        padding: 60px;
+        margin-top: 0%;
+    }
+
+    .Successfull-student img {
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    /* cards */
+    .card {
+        margin-top: 20px;
+    }
+
+
+    /* company logo */
+    .brands {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brands-logo {
+        margin-bottom: 10px;
+    }
+}
